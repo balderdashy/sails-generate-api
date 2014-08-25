@@ -1,0 +1,34 @@
+{
+  "name": "sails-generate-api",
+  "version": "0.10.0",
+  "description": "Generate a Sails API.",
+  "main": "lib/index.js",
+  "keywords": [
+    "controller",
+    "model",
+    "api",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*",
+    "sails-generate-controller": "~0.10.7",
+    "sails-generate-model": "~0.10.9"
+  },
+  "sailsGenerator": {
+    "type": "api",
+    "behavior": "default implementation of `sails generate api`",
+    "sailsVersion": "~0.10.0"
+  }
+}
